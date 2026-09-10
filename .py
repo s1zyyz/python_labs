@@ -1,1 +1,0 @@
-print('ya natural anya lox')
