@@ -1,1 +1,1 @@
-print('hllo')
+print('ya natural anya lox')
