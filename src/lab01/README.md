@@ -13,7 +13,8 @@ print(f'Привет, {a}! Через год тебе будет {b+1}.')
 
 ```python 
 a,b = float(input().replace(',','.')),float(input().replace(',','.'))
-print(f'sum={a+b}; avg={(a+b)/2:.2f}')```
+print(f'sum={a+b}; avg={(a+b)/2:.2f}')
+```
 
 ![2](https://github.com/s1zyyz/python_labs/blob/e8ebd7e9235c59783db39050d06e29a0a306430b/src/images/lab01/img02.png)
 
