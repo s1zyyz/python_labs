@@ -7,6 +7,7 @@ a,b = input(),int(input())
 print(f'Привет, {a}! Через год тебе будет {b+1}.')
 ```
 
+<<<<<<< HEAD
 ![1](src/images/lab01/img01.png)
 
 #### Задание 2
@@ -33,5 +34,3 @@ print(f'НДС:               {vata:.2f} ₽')
 print(f'Итого к оплате:    {total:.2f} ₽')
 ```
 ![3](https://github.com/s1zyyz/python_labs/blob/e8ebd7e9235c59783db39050d06e29a0a306430b/src/images/lab01/img03.png)
-
-wwdwd
