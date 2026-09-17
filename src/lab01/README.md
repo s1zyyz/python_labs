@@ -33,3 +33,4 @@ print(f'Итого к оплате:    {total:.2f} ₽')
 ```
 ![3](https://github.com/s1zyyz/python_labs/blob/e8ebd7e9235c59783db39050d06e29a0a306430b/src/images/lab01/img03.png)
 
+wwdwd
