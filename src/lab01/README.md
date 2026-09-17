@@ -7,4 +7,4 @@ a,b = input(),int(input())
 print(f'Привет, {a}! Через год тебе будет {b+1}.')
 ```
 
-![alt text](img01.png)
+![1](.images/lab01/img01.png)
