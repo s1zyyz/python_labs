@@ -1,2 +1,3 @@
-a,b = input(),int(input())
+a = input('Имя: ')
+b = int(input('Возраст: '))
 print(f'Привет, {a}! Через год тебе будет {b+1}.')

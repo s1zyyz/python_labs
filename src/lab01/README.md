@@ -3,7 +3,8 @@
 #### Задание 1
 
 ```python
-a,b = input(),int(input())
+a = input('Имя: ')
+b = int(input('Возраст: '))
 print(f'Привет, {a}! Через год тебе будет {b+1}.')
 ```
 
@@ -12,7 +13,7 @@ print(f'Привет, {a}! Через год тебе будет {b+1}.')
 #### Задание 2
 
 ```python 
-a,b = float(input().replace(',','.')),float(input().replace(',','.'))
+a,b = float(input('a: ').replace(',','.')),float(input('b: ').replace(',','.'))
 print(f'sum={a+b}; avg={(a+b)/2:.2f}')
 ```
 
@@ -22,9 +23,9 @@ print(f'sum={a+b}; avg={(a+b)/2:.2f}')
 #### Задание 3
 
 ```python
-price = int(input())
-discount = int(input())
-vat = int(input())
+price = int(input('Price: '))
+discount = int(input('Discount: '))
+vat = int(input('vat: '))
 base = price * (1-discount/100)
 vata = base * (vat/100)
 total = base + vata
@@ -38,7 +39,7 @@ print(f'Итого к оплате:    {total:.2f} ₽')
 #### Задание 4
 
 ```python
-m = int(input())
+m = int(input('Минуты: '))
 print(f'{m//60}:{m%60:02d}')
 ```
 
@@ -48,7 +49,7 @@ print(f'{m//60}:{m%60:02d}')
 #### Задание 5
 
 ```python
-fio = input()
+fio = input('ФИО: ')
 words = fio.split()
 initials = ''.join(w[0].upper() for w in words) + '.'
 length = len(' '.join(words))

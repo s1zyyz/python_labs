@@ -1,6 +1,6 @@
-price = int(input())
-discount = int(input())
-vat = int(input())
+price = int(input('Price: '))
+discount = int(input('Discount: '))
+vat = int(input('vat: '))
 base = price * (1-discount/100)
 vata = base * (vat/100)
 total = base + vata
