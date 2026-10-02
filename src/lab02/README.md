@@ -115,7 +115,9 @@ def col_sums(mat: list[list[float | int]]) -> list[float]:
 # Вывод
 
 ![](../../images/lab02/transpose.png)
+
 ![](../../images/lab02/sumrow.png)
+
 ![](../../images/lab02/colsum.png)
 
 ## Задание 3

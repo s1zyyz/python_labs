@@ -9,7 +9,7 @@ def transpose(mat: list[list[float | int]]) -> list[list]:
     
     for row in mat:
         if len(row) != lgh:
-            raise ValueError
+            raise ValueError=
     
     matr = []
     for j in range(lgh):

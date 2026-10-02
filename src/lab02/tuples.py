@@ -1,20 +1,20 @@
 def format_record(rec: tuple[str, str, float]) -> str:
     
     if not isinstance(rec, tuple) or len(rec) != 3:
-        raise TypeError
+        raise TypeError("rec должен быть кортежем из трёх элементов: (ФИО, группа, GPA)")
 
     fio, group, gpa = rec
 
     if not isinstance(fio, str):
-        raise TypeError
+        raise TypeError("ФИО должно быть строкой")
     if not isinstance(group, str):
-        raise TypeError
+        raise TypeError("Группа должна быть строкой")
     if not isinstance(gpa, (int, float)):
-        raise TypeError
+        raise TypeError("GPA должен быть числом типа int или float")
     
     parts = fio.split()
     if len(parts) < 2:
-        raise ValueError
+        raise ValueError("ФИО должно содержать минимум фамилию и имя")
 
     last_name = parts[0].capitalize()
     initials = "".join(p[0].upper() + "." for p in parts[1:3])
@@ -34,3 +34,4 @@ def format_record(rec: tuple[str, str, float]) -> str:
 print(format_record(("Петров Пётр", "IKBO-12", 5.0)))
 print(format_record(("Петров Пётр Петрович", "IKBO-12", 5.0)))
 print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999))) """
+print(format_record(("Иванов", "BIVT-25", 4.6)))
