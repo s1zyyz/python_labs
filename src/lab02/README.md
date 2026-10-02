@@ -124,8 +124,6 @@ def col_sums(mat: list[list[float | int]]) -> list[float]:
 
 #### format_record валидирует кортеж (str, str, float) и возвращает нормализованную строку «Фамилия И.О., гр. группа, GPA X.XX», выбрасывая TypeError при неверных типах/длине и ValueError при недостатке частей ФИО, пустой группе или GPA вне [0.0, 5.0]
 
-```python
-def format_record(rec: tuple[str, str, float]) -> str:
     
 ```python
 def format_record(rec: tuple[str, str, float]) -> str:
