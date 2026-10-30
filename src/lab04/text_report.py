@@ -15,7 +15,6 @@ parser.add_argument("--encoding", type=str, default="utf-8", help="Кодиро�
 
 args = parser.parse_args()
 
-text = read_text(args.input, encoding=args.encoding)
 
 try:
  

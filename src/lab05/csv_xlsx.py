@@ -28,7 +28,7 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
     if src.read_text(encoding="utf-8").strip() == "":
         raise ValueError("CSV-файл пуст")
 
-    # 4. Чтение строк из CSV
+    
     with src.open("r", encoding="utf-8", newline="") as f:
         reader = csv.reader(f)
         rows = list(reader)
