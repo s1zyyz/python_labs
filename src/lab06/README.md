@@ -51,8 +51,16 @@ def run_stats(file_path: Path, top: int) -> None:
     print(f"Топ-{top}:")
     for word, count in top_words:
         print(f"{word}: {count}")
+```
 
 
+# ТЕСТ 
+![](../../images/lab06/cat.png)
+![](../../images/lab06/stats.png)
+
+
+### Задание 2
+```python
 def main() -> None:
     parser = argparse.ArgumentParser(description="CLI‑утилиты лабораторной №6")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -78,13 +86,6 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
-
-# ТЕСТ 
-![](../../images/lab06/cat.png)
-![](../../images/lab06/stats.png)
-
-
-### Задание 2
 #### Модуль src/lab06/cli_convert.py с подкомандами:
 #### json2csv --in data/samples/people.json --out data/out/people.csv
 #### csv2json --in data/samples/people.csv --out data/out/people.json
